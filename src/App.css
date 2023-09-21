@@ -1,0 +1,104 @@
+.outer-row-container {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.navigator-grid-item {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.content-grid-item {
+  background-color: rgb(246, 245, 243);
+  margin: 0;
+  padding: 0;
+}
+
+.row-common-class {
+  width: 100%;
+  padding-left: 20%;
+}
+
+.marketplace-class {
+  width: 100%;
+  margin: 0;
+  height: 2em;
+}
+
+.marketplace-text {
+  padding-left: 20%;
+  display: inline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.download-report-button {
+  float: right;
+  text-transform: none !important;
+  /* margin-left: 50%; */
+}
+
+.compare-question-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.searchbar-form-control {
+  padding-left: 20%;
+  /* padding-right: 30%; */
+  width: 100%;
+  /* display: inline; */
+}
+/* 
+.searchbar-textfield {
+  display: inline;
+  width: 70%;
+} */
+
+/* .dropdown-select{
+  border-radius: 5px !important;
+} */
+
+.search-button {
+  width: fit-content;
+  text-transform: none !important;
+}
+
+.second-drop-down {
+  margin-left: 10px;
+}
+
+.search-bar-wrapper {
+  width: 100%;
+  padding-right: 35%;
+  margin-bottom: 15px;
+}
+
+.comparison-details {
+  width: 100%;
+  padding-right: 35%;
+}
+
+.new-icon {
+  padding-left: 3em;
+}
+
+.comparison-each-line-text {
+  padding-left: 3em;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.comparison-header {
+  font-weight: bold;
+}
+
+.chatbot-position {
+  position: absolute;
+  top: 27%;
+  left: 94%;
+}
