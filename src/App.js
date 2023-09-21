@@ -223,11 +223,11 @@ function App() {
             </Row>
 
             <Row className="row-common-class">
-              <p className="compare-question-text">
+              <Typography variant="h5" className="compare-question-text" style={{marginTop: "30px"}}>
                 What would you like to compare today?
-              </p>
+              </Typography>
             </Row>
-            <Row className="row-common-class">
+            <Row className="row-common-class" style={{marginTop: "1em"}}>
               <Stack direction="row" spacing={2}>
                 <Dropdown
                   className="first-drop-down"

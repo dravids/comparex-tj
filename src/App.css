@@ -34,16 +34,12 @@
 .marketplace-text {
   padding-left: 20%;
   display: inline;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  white-space: nowrap;
 }
 
 .download-report-button {
   float: right;
   text-transform: none !important;
-}
-
-.compare-question-text {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .searchbar-form-control {
