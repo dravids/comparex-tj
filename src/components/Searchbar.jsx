@@ -58,7 +58,7 @@ function Searchbar(props) {
                     style={{ display: showClearIcon }}
                     onClick={handleClickOfClear}
                   >
-                    <ClearIcon />
+                    <ClearIcon   className="clear-icon"/>
                   </InputAdornment>
                 </>
               ),
