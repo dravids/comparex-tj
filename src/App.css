@@ -40,7 +40,6 @@
 .download-report-button {
   float: right;
   text-transform: none !important;
-  /* margin-left: 50%; */
 }
 
 .compare-question-text {
@@ -49,20 +48,8 @@
 
 .searchbar-form-control {
   padding-left: 20%;
-  /* padding-right: 30%; */
   width: 100%;
-  /* display: inline; */
 }
-/* 
-.searchbar-textfield {
-  display: inline;
-  width: 70%;
-} */
-
-/* .dropdown-select{
-  border-radius: 5px !important;
-} */
-
 .search-button {
   width: fit-content;
   text-transform: none !important;
