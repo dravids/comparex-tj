@@ -36,7 +36,7 @@ function Searchbar(props) {
 
   return (
     <ThemeProvider theme={theme}>
-      <FormControl className="searchbar-form-control">
+      <FormControl className="searchbar-form-control" style={{marginBottom: "1em"}}>
         <Stack direction="row">
           <TextField
             size="small"
