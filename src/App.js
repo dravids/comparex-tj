@@ -249,7 +249,7 @@ function App() {
                 latestMonth={listOfMonths[0]}
               ></Searchbar>
             </Row>
-            <Chatbot></Chatbot>
+            {/* <Chatbot></Chatbot> */}
             <Row className="row-common-class">
               <ComparisonDetails
                 month={monthOfDataToBeFetched}

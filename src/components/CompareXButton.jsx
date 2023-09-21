@@ -17,7 +17,6 @@ const theme = createTheme({
 });
 
 function CompareXButton(props) {
-  console.log(props.className === "search-button"?props:null)
   return (
     <ThemeProvider theme={theme}>
       <Button
@@ -26,7 +25,6 @@ function CompareXButton(props) {
         onClick={
           props.className === "search-button"
             ? () => {
-              //console.log("props.currentSearchBarValue", props.currentSearchBarValue);
                 props.setSearchValue(props.currentSearchBarValue);
                 props.setSearchButtonClicked(true);
               }
